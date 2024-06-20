@@ -13,7 +13,3 @@ vim.cmd[[
      autocmd BufRead,BufNewFile *.md luafile ~/.local/share/nvim/lazy/nvimScript/lua/ftplugin/markdown/snippet.lua
      autocmd BufRead,BufNewFile *.md nnoremap sp :lua vim.cmd(_G.StartPv)<CR>
 ]]
-
-
-
--- require("nvimScript.lua.scripts.fcitx")
