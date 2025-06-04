@@ -7,7 +7,6 @@ require("script.forSwitchFcitx5")
 require("script.forFlipVal")
 vim.keymap.set("n", "'f", ':lua vim.cmd(_G.Flip)<CR><ESC>', { noremap = true, silent = true })
 
-require("script.forFastComment")
 
 
 vim.cmd [[
